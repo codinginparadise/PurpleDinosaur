@@ -21,6 +21,7 @@
 		D0E689791942CA99006C83A2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0E6895B1942CA98006C83A2 /* UIKit.framework */; };
 		D0E689811942CA99006C83A2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D0E6897F1942CA99006C83A2 /* InfoPlist.strings */; };
 		D0E689831942CA99006C83A2 /* CapsuleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E689821942CA99006C83A2 /* CapsuleTests.m */; };
+		D0E6898E1942D402006C83A2 /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E6898D1942D402006C83A2 /* CameraViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		D0E6897E1942CA99006C83A2 /* CapsuleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CapsuleTests-Info.plist"; sourceTree = "<group>"; };
 		D0E689801942CA99006C83A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D0E689821942CA99006C83A2 /* CapsuleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CapsuleTests.m; sourceTree = "<group>"; };
+		D0E6898C1942D402006C83A2 /* CameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraViewController.h; sourceTree = "<group>"; };
+		D0E6898D1942D402006C83A2 /* CameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				D0E689661942CA98006C83A2 /* AppDelegate.h */,
 				D0E689671942CA98006C83A2 /* AppDelegate.m */,
 				D0E689691942CA98006C83A2 /* Main.storyboard */,
+				D0E6898C1942D402006C83A2 /* CameraViewController.h */,
+				D0E6898D1942D402006C83A2 /* CameraViewController.m */,
 				D0E6896C1942CA98006C83A2 /* ViewController.h */,
 				D0E6896D1942CA98006C83A2 /* ViewController.m */,
 				D0E6896F1942CA98006C83A2 /* Images.xcassets */,
@@ -250,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0E6896E1942CA98006C83A2 /* ViewController.m in Sources */,
+				D0E6898E1942D402006C83A2 /* CameraViewController.m in Sources */,
 				D0E689681942CA98006C83A2 /* AppDelegate.m in Sources */,
 				D0E689641942CA98006C83A2 /* main.m in Sources */,
 			);
